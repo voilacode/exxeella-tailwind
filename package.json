@@ -1,9 +1,9 @@
 {
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
-  },
-  "dependencies": {
-    "flowbite": "^1.8.1",
-    "lite-youtube-embed": "^0.2.0"
   }
 }
