@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
