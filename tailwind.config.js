@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         'exo': ['Exo 2', 'sans-serif'],
       },
+      screens: {
+        
+      }
     },
   },
   plugins: [
